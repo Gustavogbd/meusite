@@ -1,0 +1,47 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+    background: rgb(161,198,234);
+    background: linear-gradient(233deg, rgba(161,198,234,1) 0%, rgba(161,198,234,1) 6%, rgba(0,212,255,1) 100%);
+    height: 70vh;
+}
+.links ul li a {
+    color: white;
+}
+.links ul li a:hover {
+    color: #04080F;
+}
+.logo:hover{
+    color: #04080F;
+}
+.conteudo {
+    margin-top: 10vh;
+    margin-left: 10%;
+}
+.botao1, .botao2 {
+    margin-top: 20px;
+}
+.text0, .text2{
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.text1 {
+    color: #04080F;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.iro {
+    width: 40%;
+}
+.wavee {
+    width: 100%;
+    height: 33vh;
+}
+.wave {
+    width: 100%;
+    align-self: flex-end;
+}
