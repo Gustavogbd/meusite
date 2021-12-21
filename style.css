@@ -8,20 +8,25 @@ body {
     height: 70vh;
 }
 .links ul li a {
-    color: white;
+    color: #04080F;
+    font-weight: 900;
 }
 .links ul li a:hover {
-    color: #04080F;
+    color: white;
 }
 .logo:hover{
-    color: #04080F;
+    color: white;
 }
 .conteudo {
     margin-top: 10vh;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 .botao1, .botao2 {
     margin-top: 20px;
+}
+.botao1:hover, .botao2:hover {
+    background:white;
+    color: #04080F;
 }
 .text0, .text2{
     color: white;
@@ -44,4 +49,10 @@ body {
 .wave {
     width: 100%;
     align-self: flex-end;
+}
+.secao2-title {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 20px;
 }
